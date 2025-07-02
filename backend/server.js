@@ -98,11 +98,13 @@ app.post('/send-email', upload.single('resume'), async (req, res) => {
             }
             .footer {
                 text-align: center;
-                padding: 10px 20px;
-                font-size: 0.8em;
-                color: #777777;
-                border-top: 1px solid #eeeeee;
-                margin-top: 20px;
+                padding: 15px 20px;
+                font-size: 0.9em;
+                color: #555555;
+                background-color: #e9ecef;
+                border-top: 1px solid #dddddd;
+                margin-top: 25px;
+                border-radius: 0 0 8px 8px;
             }
             a {
                 color: #4CAF50;
