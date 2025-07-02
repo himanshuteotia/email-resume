@@ -1,4 +1,4 @@
-# Email Sender Chrome Extension
+# Resume Email Sender Chrome Extension
 
 This project consists of a Chrome Extension and a Node.js backend to facilitate sending emails with pre-filled content and optional resume attachments.
 
