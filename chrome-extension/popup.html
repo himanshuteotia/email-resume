@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Email Sender</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h2>Send an Email</h2>
+    <form id="email-form">
+      <div class="form-group">
+        <label for="to">To:</label>
+        <input type="email" id="to" name="to" required>
+      </div>
+      <div class="form-group">
+        <label for="subject">Subject:</label>
+        <input type="text" id="subject" name="subject" value="Application for Senior Backend Developer Role" required>
+      </div>
+      <div class="form-group">
+        <label for="body">Body:</label>
+        <textarea id="body" name="body" rows="10" required>Hi,
+
+I hope you're doing well.
+
+I'm writing to express my interest in the Backend Developer role. I have experience in Node.js, TypeScript, and building scalable microservices. Please find my resume attached for your consideration.
+
+I'd love the opportunity to discuss how I can contribute to your team.
+
+Looking forward to hearing from you.
+
+Best regards,  
+Himanshu Teotia  
++971528990381 / +919911012064  
+GitHub : https://github.com/himanshuteotia
+LinkedIn : https://www.linkedin.com/in/himanshuteotia/</textarea>
+      </div>
+      <div class="form-group">
+        <label for="resume">Resume (PDF):</label>
+        <input type="file" id="resume" name="resume" accept=".pdf">
+      </div>
+      <button type="submit" class="btn">Send</button>
+    </form>
+    <p id="status"></p>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>
